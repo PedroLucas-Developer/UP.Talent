@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="relative w-full flex justify-center overflow-hidden">
       <div className="flex w-full relative max-w-[1800px] h-screen">
-        <div className="absolute h-[1909px] flex left-[-660px] top-0 max-[1680px]:w-11/12">
+        <div className="absolute h-[1909px] flex left-[-660px] top-0">
           <Image className="select-none" priority={true} src={Vector1} alt=""/>
         </div>
         <div className='h-[462px] w-[548px] absolute right-[250px] top-[133px] max-[1400px]:right-[180px] '>
@@ -28,7 +28,7 @@ export default function Home() {
             <Image priority={true} src={Vector3} alt=""/>
           </div>
         </div>
-        <div className="absolute flex right-[-320px] h-[528px] top-[60px] max-[1680px]:w-4/12">
+        <div className="absolute flex right-[-320px] h-[528px] top-[60px]">
           <Image className="select-none" priority={true} src={Vector2} alt=""/>
         </div>
       </div>
