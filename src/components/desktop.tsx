@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navigation from "./navigation";
 
 import Logo from '../../public/imagens/logo-header.png';
-import vector from '../../public/imagens/vector-header.png';
+import Vector from '../../public/imagens/vector-header.png';
 
 export default function Desktop() {
   return (
@@ -18,7 +18,7 @@ export default function Desktop() {
             Texto="text-[20px] font-bold leading-[24px] text-[#291234]" 
           />
           <div className="absolute flex right-[-14rem] top-0 z-0">
-            <Image className="select-none" priority={true} src={vector} alt=""/>
+            <Image className="select-none" priority={true} src={Vector} alt=""/>
           </div>
         </div>
       </div>

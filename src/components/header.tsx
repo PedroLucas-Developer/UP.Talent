@@ -1,8 +1,6 @@
 import Desktop from "./desktop";
 import Mobile from "./mobile";
 
-
-
 export default function Header(){
   return (
     <div className='flex w-full justify-center relative z-40'>
