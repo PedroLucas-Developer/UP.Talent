@@ -4,7 +4,7 @@ import Navigation from "./navigation";
 
 import Logo from '../../public/imagens/logo-footer.png';
 import Facebook from '../../public/imagens/facebook.png';
-import Instagram from '../../public/imagens/Instagram.png';
+import Instagram from '../../public/imagens/instagram.png';
 import Linkdin from '../../public/imagens/linkedin.png';
 
 export default function Footer() {
