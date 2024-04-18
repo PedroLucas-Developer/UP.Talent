@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Vector1 from '../../public/imagens/vector-1.png';
 import Vector2 from '../../public/imagens/vector-2.png';
 import Vector3 from '../../public/imagens/vector-3.png';
+import Vector4 from '../../public/imagens/vector-mobile.png';
 
 export default function Home() {
   return (
@@ -28,7 +29,10 @@ export default function Home() {
             <Image className='ml-auto mr-2 mt-14' priority={true} src={Vector3} alt=""/>
           </div>
         </div>
-        <div className="absolute flex right-[-320px] h-[528px] top-[60px] max-[670px]:hidden">
+        <div className="absolute flex right-[-240px] h-[528px] top-[60px] z-10 min-[1251px]:hidden max-[670px]:top-[500px] max-[450px]:top-[550px] max-[400px]:top-[350px]">
+          <Image className="select-none" priority={true} src={Vector4} alt=""/>
+        </div>
+        <div className="absolute flex right-[-320px] h-[528px] top-[60px] max-[670px]:top-[500px] max-[450px]:top-[550px] max-[400px]:top-[350px]">
           <Image className="select-none" priority={true} src={Vector2} alt=""/>
         </div>
       </div>
