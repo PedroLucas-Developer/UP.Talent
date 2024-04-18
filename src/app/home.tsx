@@ -29,10 +29,10 @@ export default function Home() {
             <Image className='ml-auto mr-2 mt-14' priority={true} src={Vector3} alt=""/>
           </div>
         </div>
-        <div className="absolute flex right-[-240px] h-[528px] top-[60px] z-10 min-[1251px]:hidden max-[670px]:top-[500px] max-[450px]:top-[550px] max-[400px]:top-[350px]">
-          <Image className="select-none" priority={true} src={Vector4} alt=""/>
+        <div className="absolute flex right-[-240px] h-[528px] top-[60px] z-10 min-[1251px]:hidden max-[670px]:top-[500px] max-[450px]:top-[550px] max-[550px]:right-[-200px] max-[400px]:top-[350px]">
+          <Image className="select-none" priority={true} style={{objectFit: "contain"}} src={Vector4} alt=""/>
         </div>
-        <div className="absolute flex right-[-320px] h-[528px] top-[60px] max-[670px]:top-[500px] max-[450px]:top-[550px] max-[400px]:top-[350px]">
+        <div className="absolute flex right-[-320px] h-[528px] top-[60px] max-[670px]:top-[550px] max-[550px]:right-[-280px] max-[400px]:top-[360px]">
           <Image className="select-none" priority={true} src={Vector2} alt=""/>
         </div>
       </div>
