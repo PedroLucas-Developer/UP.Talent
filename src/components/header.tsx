@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <div className="relative w-full flex justify-center overflow-x-hidden">
       <div className="flex w-full relative max-w-[1800px] h-[278px]">
-        <div className="absolute left-[170px] bottom-[90px]  z-30 ">
+        <div className="absolute left-[170px] bottom-[90px]  z-30 max-[1500px]:left-8">
           <Image priority={true} src={Logo} alt="Up Talent"/>
         </div>
         <Navigation 
@@ -17,7 +17,7 @@ export default function Header() {
           Texto="text-[20px] font-bold leading-[24px] text-[#291234]" 
         />
         <div className="absolute flex right-[-14rem] top-0 z-0">
-          <Image priority={true} src={vector} alt=""/>
+          <Image className="select-none" priority={true} src={vector} alt=""/>
         </div>
       </div>
     </div>

@@ -10,20 +10,20 @@ import Linkdin from '../../public/imagens/linkedin.png';
 export default function Footer() {
   return (
     <div className="max-w-[1600px] mx-auto px-[20px] relative z-50">
-      <div className="flex w-full flex-row justify-between">
-        <div className="w-full flex-col justify-center">
-          <div className="pb-[30px]">
+      <div className="flex w-full flex-row justify-between max-[700px]:flex-col">
+        <div className="w-full flex flex-col justify-center">
+          <div className="pb-[30px] flex max-[700px]:justify-center max-[1100px]:pb-[10px]">
             <a href="#home">
               <Image src={Logo} alt="Up Talent"/>
             </a>
           </div>
-          <div className="w-full">
+          <div className="w-full flex mx-auto max-[700px]:max-w-[550px]">
             <Navigation 
-              UlStyles="flex w-full max-w-[1044px] flex-row justify-between"
-              Texto="text-[18px] leading-[24px] text-[#1B0E27]" />
+              UlStyles="flex w-full max-w-[1044px] flex-row justify-between max-[1100px]:justify-start max-[700px]:justify-center max-[1100px]:flex-wrap"
+              Texto="text-[18px] leading-[24px] text-[#1B0E27] max-[1100px]:pt-5"/>
           </div>
         </div>
-        <div className="max-w-[263px] max-[1350px]:pl-8 w-full flex self-end flex-row justify-between">
+        <div className="max-w-[263px] w-full flex self-end flex-row justify-between max-[1350px]:pl-8 max-[1050px]:mt-8 max-[1050px]:pl-0 max-[1050px]:mx-auto">
           <a href="https://www.facebook.com/" target="_blank" rel='noopener'>
             <Image src={Facebook} alt="Facebook"/>
           </a>
