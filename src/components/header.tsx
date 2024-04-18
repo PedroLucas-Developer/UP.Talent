@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navigation from "./navigation";
 
 import Logo from '../../public/imagens/logo-header.png';
-import vector from '../../public/imagens/vector-header-2.png';
+import vector from '../../public/imagens/vector-header.png';
 
 export default function Header() {
   return (
