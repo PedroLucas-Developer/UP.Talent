@@ -19,19 +19,19 @@ export default function Footer() {
           </div>
           <div className="w-full flex mx-auto max-[700px]:max-w-[550px]">
             <Navigation 
-              UlStyles="flex w-full max-w-[1044px] flex-row justify-between max-[1100px]:justify-start max-[700px]:justify-center max-[1100px]:flex-wrap"
-              Texto="text-[18px] leading-[24px] text-[#1B0E27] max-[1100px]:pt-5"/>
+              UlStyles="flex w-full max-w-[1044px] flex-row justify-between max-[1100px]:justify-start gap-4 max-[700px]:justify-center max-[1100px]:flex-wrap"
+              Texto="text-[18px] leading-[24px] text-[#1B0E27] hover:font-bold"/>
           </div>
         </div>
-        <div className="max-w-[263px] w-full flex self-end flex-row justify-between max-[1350px]:pl-8 max-[1050px]:mt-8 max-[1050px]:pl-0 max-[1050px]:mx-auto">
+        <div className="max-w-[263px] w-full flex self-end flex-row justify-between max-[1400px]:pl-8 max-[700px]:mt-8 max-[700px]:pl-0 max-[1050px]:mx-auto">
           <a href="https://www.facebook.com/" target="_blank" rel='noopener'>
-            <Image src={Facebook} alt="Facebook"/>
+            <Image src={Facebook} className='cursor-pointer transition-transform transform hover:scale-110' alt="Facebook"/>
           </a>
           <a href="https://www.instagram.com/uptalentrh/" target="_blank" rel='noopener'>
-            <Image src={Instagram} alt="Instagram"/>
+            <Image src={Instagram} className='cursor-pointer transition-transform transform hover:scale-110' alt="Instagram"/>
           </a>
           <a href="https://www.linkedin.com/company/uptalentrh/" rel='noopener' target="_blank">
-            <Image src={Linkdin} alt="Linkedin"/>
+            <Image src={Linkdin} className='cursor-pointer transition-transform transform hover:scale-110' alt="Linkedin"/>
           </a>
         </div>
       </div>
