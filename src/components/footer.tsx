@@ -9,7 +9,7 @@ import Linkdin from '../../public/imagens/linkedin.png';
 
 export default function Footer() {
   return (
-    <div className="max-w-[1600px] mx-auto px-[20px] relative z-50">
+    <div className="max-w-[1600px] mx-auto px-8 relative z-20 max-[430px]:px-2">
       <div className="flex w-full flex-row justify-between max-[700px]:flex-col">
         <div className="w-full flex flex-col justify-center">
           <div className="pb-[30px] flex max-[700px]:justify-center max-[1100px]:pb-[10px]">
