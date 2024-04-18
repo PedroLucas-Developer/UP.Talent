@@ -6,12 +6,12 @@ import Vector3 from '../../public/imagens/vector-3.png';
 
 export default function Home() {
   return (
-    <div className="relative w-full flex justify-center overflow-hidden">
+    <div className="relative w-full flex justify-center overflow-hidden top-[-87px] max-[1250px]:mt-[80px]">
       <div className="flex w-full relative max-w-[1800px] h-screen">
-        <div className="absolute h-[1909px] flex left-[-660px] top-0">
+        <div className="absolute h-[1909px] flex left-[-660px] top-0 max-[1680px]:left-[-1000px]">
           <Image className="select-none" priority={true} src={Vector1} alt=""/>
         </div>
-        <div className='h-[462px] w-[548px] absolute right-[250px] top-[133px] max-[1400px]:right-[180px] '>
+        <div className='h-[462px] w-[548px] absolute right-[255px] top-[133px] max-[1400px]:right-[180px] '>
           <div>
             <div className='pt-3'>
                 <p className='text-[60px] font-bold leading-[60px] text-[#291234]'>
