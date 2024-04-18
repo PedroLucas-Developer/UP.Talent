@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+*{
+  font-family: "Segoe UI", 'Arial', 'sans-serif';
+}
+*::selection{
+  background-color: #57B89B;
+  color: white;
+}
