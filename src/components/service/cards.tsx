@@ -38,8 +38,8 @@ export default function Cards() {
           </div>
         </div>
         <div className='flex flex-row w-[532px] ml-auto justify-between max-[1500px]:mx-auto max-[1500px]:w-11/12 max-w-[600px] max-[450px]:flex-col max-[450px]:w-[320px]'>
-          <div className='max-[1500px]:w-1/2 max-[450px]:mx-auto'>
-            <Card full='w-[260px]' Img={Gift}>
+          <div className='max-[1500px]:w-1/2 max-[450px]:mx-auto max-[450px]:w-full'>
+            <Card full='w-[260px] max-[450px]:w-full mx-auto' Img={Gift}>
               Welcome kit
               <br />
               personalizado
@@ -48,7 +48,7 @@ export default function Cards() {
             </Card>
           </div>
           <div className='max-[1500px]:w-1/2 max-[450px]:mx-auto'>
-            <Card full='w-[212px]' Img={Recruting}>
+            <Card full='w-[212px] max-[450px]:w-full mx-auto' Img={Recruting}>
               Recrutamento
               <br />
               Taylor Made
