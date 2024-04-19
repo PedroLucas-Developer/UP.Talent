@@ -6,10 +6,10 @@ import Cards from './cards';
 
 export default function Service() {
   return (
-    <div id="serviços" className='relative mx-auto w-full'>
-      <div className="relative mx-auto w-full flex-row flex justify-center">
+    <div id="serviços" className='relative mx-auto w-full overflow-hidden top-[-130px] max-[1250px]:top-0'>
+      <div className="relative mx-auto w-full flex-row flex justify-center max-w-[1800px]">
         <div className='w-[651px] relative mx-auto max-[670px]:w-11/12'>
-          <div className='relative pt-16 max-[400px]:pt-0'>
+          <div className='relative pt-[195px] max-[1250px]:pt-14 max-[400px]:pt-0'>
             <p className="text-[60px] font-bold leading-[50px] text-[#E7CA29] text-center mb-[10px] max-[800px]:text-[55px] max-[400px]:text-[50px]">
               Serviços
             </p>
@@ -24,7 +24,7 @@ export default function Service() {
           </div>
         </div>
         <div className="flex w-full absolute max-w-[1800px] max-[1250px]:hidden">
-          <div className="absolute flex right-[-580px] top-[-440px]">
+          <div className="absolute flex right-[-580px] top-[-300px]">
             <Image className="select-none" priority={true} style={{objectFit: "contain"}} src={vectorService} alt=""/>
           </div>
         </div>

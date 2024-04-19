@@ -10,7 +10,7 @@ export default function Navigation({UlStyles, Texto}: NavigationProps ) {
         <a href="#serviços">Serviços</a>
       </li>
       <li className={Texto}>
-        <a href="#diferencial">Nosso Diferencial</a>
+        <a href="#differential">Nosso Diferencial</a>
       </li>
       <li className={Texto}>
         <a href="#clientes">Nossos Clientes</a>

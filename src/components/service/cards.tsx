@@ -10,8 +10,8 @@ export default function Cards() {
   return (
     <div className="flex flex-row relative">
       <div className='w-full mt-[9rem] mx-auto max-w-[1450px] flex flex-row max-[1250px]:mt-10 max-[1500px]:flex-col'>
-        <div className='flex flex-row w-[830px] mx-auto justify-between max-[1500px]:w-11/12 max-w-[900px] max-[820px]:flex-col'>
-          <div className='flex flex-row mr-auto w-[519px] max-[1500px]:w-2/3 max-[820px]:w-full max-[820px]:mx-auto justify-between max-[450px]:flex-col max-w-[600px] max-[450px]:w-[320px]'>
+        <div className='flex flex-row w-[830px] ml-auto justify-between max-[1500px]:mx-auto max-[1500px]:w-11/12 max-w-[900px] max-[900px]:flex-col'>
+          <div className='flex flex-row w-[519px] max-[1500px]:w-2/3 max-[900px]:w-full max-[900px]:mx-auto justify-between max-[450px]:flex-col max-w-[600px] max-[450px]:w-[320px]'>
             <div className='max-[1500px]:w-1/2 max-[450px]:mx-auto'>
               <Card full='w-[201px]' Img={Find}>
                 Recrutamento
@@ -27,8 +27,8 @@ export default function Cards() {
               </Card>
             </div>
           </div>
-          <div className='flex max-[1500px]:w-1/3 mx-auto max-[820px]:w-[320px]'>
-            <Card full='w-[260px] mx-auto' Img={Meets}>
+          <div className='flex max-[1500px]:w-1/3 max-[900px]:w-[320px] mx-[30px] max-[900px]:mx-auto'>
+            <Card full='w-[270px]' Img={Meets}>
               One a one após 3
               <br />
               meses do início do
@@ -37,7 +37,7 @@ export default function Cards() {
             </Card>
           </div>
         </div>
-        <div className='flex flex-row w-[532px] ml-auto justify-between max-[1500px]:mx-auto max-[1500px]:w-11/12 max-w-[600px] max-[450px]:flex-col max-[450px]:w-[320px]'>
+        <div className='flex flex-row w-[532px] justify-between max-[1500px]:mx-auto max-[1500px]:w-11/12 max-w-[600px] max-[450px]:flex-col max-[450px]:w-[320px]'>
           <div className='max-[1500px]:w-1/2 max-[450px]:mx-auto max-[450px]:w-full'>
             <Card full='w-[260px] max-[450px]:w-full mx-auto' Img={Gift}>
               Welcome kit

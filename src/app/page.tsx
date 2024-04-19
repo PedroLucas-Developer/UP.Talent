@@ -2,6 +2,7 @@ import Header from "@/components/header";
 import Home from "./home";
 import Differential from "./differential";
 import Footer from "@/components/footer";
+import Service from "@/components/service/service";
 
 export default function page() {
   return (

@@ -6,8 +6,8 @@ import Vector4 from '../../../public/imagens/vector-mobile.png';
 
 export default function AboutUs() {
   return (
-    <div className="relative mx-auto w-full flex justify-center">
-      <div className="flex w-full relative h-[1000px] max-[1250px]:h-[650px] max-[670px]:h-[1100px] max-[400px]:h-[950px] max-w-[1800px] max-[1250px]:flex-col">
+    <div id="home" className="relative mx-auto w-full flex justify-center overflow-hidden">
+      <div className="flex w-full relative h-[1000px] max-[1250px]:h-[650px] max-[670px]:h-[1100px] max-[400px]:h-[1000px] max-w-[1800px] max-[1250px]:flex-col">
         <div className='h-[462px] w-[548px] absolute right-[255px] top-[133px] max-[670px]:top-8 max-[670px]:w-10/12 max-[800px]:w-[400px] max-[400px]:left-6 max-[1400px]:right-[180px] max-[1250px]:left-8'>
           <div className='flex flex-col'>
             <div className='pt-3 max-[670px]:pt-0'>

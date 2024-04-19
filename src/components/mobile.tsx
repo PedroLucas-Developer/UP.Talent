@@ -20,7 +20,7 @@ const Mobile = () => {
       </div>
       <div className='flex fixed w-full'>
         <div className='flex w-full relative ml-auto px-8 pt-5 flex-row'>
-          <div className='justify-center flex w-16 h-16 bg-[#61c3ac] ml-auto my-auto rounded-full' onClick={toggleMenu}>  
+          <div className='justify-center flex w-16 h-16 bg-[#61c3ac] border-[0.5px] border-black ml-auto my-auto rounded-full' onClick={toggleMenu}>  
             <button aria-label="Home" className="flex z-50 flex-col relative text-3xl my-auto cursor-pointer">
               <div className={`w-9 h-1 bg-[#291234] my-1 rounded-lg transition-transform duration-300 transform origin-center ${ isOpen ? 'transform rotate-45 translate-y-2 bg-[#e6ca29]' : ''}`}></div>
               <div className={`w-9 h-1 bg-[#291234] my-1 rounded-lg transition-opacity duration-300 ${ isOpen ? 'opacity-0 bg-[#291234]' : ''}`}></div>
