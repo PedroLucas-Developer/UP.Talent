@@ -4,7 +4,7 @@ import Mobile from "./mobile";
 export default function Header(){
   return (
     <div className='flex w-full justify-center relative z-40'>
-      <div className="w-full sticky flex flex-row justify-center">
+      <div className="w-full relative flex flex-row justify-center">
         <div className="max-[1250px]:hidden w-full flex justify-center">
           <Desktop />
         </div>
