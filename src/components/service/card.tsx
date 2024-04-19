@@ -17,7 +17,7 @@ export default function Card ({Img, full, children}: CardProps ) {
         </div>
       </div>
       <div className={"flex flex-col justify-center mx-auto" + full}>
-        <p className="text-[30px] mt-6 h-[120px] text-[#E7CA29] leading-[30px] max-[1500px]:text-center max-[600px]:text-[25px]">
+        <p className="text-[30px] mt-6 h-[120px] text-[#E7CA29] leading-[30px] max-[1500px]:text-center max-[600px]:text-[25px] max-[1500px]:mt-0">
           {children}
         </p>
       </div>
