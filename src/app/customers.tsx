@@ -9,7 +9,7 @@ export default function Customers() {
   return (
     <div id='customers' className="relative flex justify-center flex-col top-[-87px]">
       <div className='relative pt-14'>
-        <p className="text-[60px] font-bold leading-[50px] text-[#E7CA29] text-center mb-[10px] max-[800px]:text-[55px] max-[400px]:text-[50px]">
+        <p className="text-[60px] font-bold leading-[50px] text-[#E7CA29] text-center mb-[10px] max-[800px]:text-[45px] max-[400px]:text-[40px]">
           Nossos clientes
         </p>
         <div className='mt-6 flex relative justify-center'>

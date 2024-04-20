@@ -15,7 +15,7 @@ export default function Differential() {
       <div className="w-11/12 mt-[200px] max-w-[1510px] mx-auto bg-[#57B89B] rounded-[64px] max-[1250px]:my-20">
         <div className='h-[1040px] w-10/12 mx-auto max-[1250px]:h-full pb-10'>
           <div className='relative pt-[180px] max-[1250px]:pt-[50px]'>
-            <p className="text-[60px] font-bold leading-[50px] text-[#FFFFFF] text-center mb-[10px] max-[600px]:text-[45px]">
+            <p className="text-[60px] font-bold leading-[50px] text-[#FFFFFF] text-center mb-[10px] max-[800px]:text-[42px]">
               Nosso diferencial
             </p>
             <div className='mt-6 flex relative justify-center'>

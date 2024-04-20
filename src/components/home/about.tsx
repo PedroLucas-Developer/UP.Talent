@@ -11,11 +11,11 @@ export default function AboutUs() {
         <div className='h-[462px] w-[548px] absolute right-[255px] top-[133px] max-[670px]:top-8 max-[670px]:w-10/12 max-[800px]:w-[400px] max-[400px]:left-6 max-[1400px]:right-[180px] max-[1250px]:left-8'>
           <div className='flex flex-col'>
             <div className='pt-3 max-[670px]:pt-0'>
-              <p className='text-[60px] font-bold leading-[60px] text-[#291234] max-[800px]:text-[45px] max-[400px]:leading-[34px] max-[400px]:text-[40px]'>
+              <p className='text-[60px] font-bold leading-[60px] text-[#291234] max-[800px]:leading-[50px] max-[800px]:text-[45px] max-[400px]:leading-[45px] max-[400px]:text-[40px]'>
                 Talentos que voam, para sua empresa decolar.
               </p>
             </div>
-            <div className='pt-16 max-w-[469px] max-[600px]:pt-8'>
+            <div className='pt-16 max-w-[469px] max-[670px]:pt-8'>
               <p className='text-[30px] leading-[40px] text-[#291234] max-[670px]:text-[25px] max-[400px]:leading-[24px]'>
                 Recrutamos o que há de melhor no mercado digital para seu negócio voar alto.
               </p>
