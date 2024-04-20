@@ -9,7 +9,7 @@ export default function Differential() {
     <div id="differential" className="relative flex-row overflow-hidden top-[-200px] max-[1250px]:top-0"> 
       <div className="flex w-full relative mx-auto max-w-[1800px]">
         <div className="absolute flex left-[-180px] top-[-280px] max-[1700px]:left-[-350px] max-[1350px]:left-[-450px] max-[1350px]:top-[-300px] max-[1250px]:hidden">
-          <Image className="select-none" priority={true} src={vector5} alt=""/>
+          <Image className="select-none" loading="lazy" src={vector5} alt=""/>
         </div>
       </div>
       <div className="w-11/12 mt-[200px] max-w-[1510px] mx-auto bg-[#57B89B] rounded-[64px] max-[1250px]:my-20">
@@ -38,7 +38,7 @@ export default function Differential() {
       </div>
       <div className="flex w-full relative mx-auto max-w-[1800px]">
         <div className="absolute flex right-[-740px] bottom-[120px] max-[1700px]:right-[-950px] max-[1250px]:hidden">
-          <Image className="select-none" priority={true} src={vector6} alt=""/>
+          <Image className="select-none" loading="lazy" src={vector6} alt=""/>
         </div>
       </div>
     </div>

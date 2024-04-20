@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="w-full flex flex-col justify-center">
           <div className="pb-[30px] flex max-[700px]:justify-center max-[1100px]:pb-[10px]">
             <a href="#home">
-              <Image src={Logo} alt="Up Talent"/>
+              <Image loading="lazy" src={Logo} alt="Up Talent"/>
             </a>
           </div>
           <div className="w-full flex mx-auto max-[700px]:max-w-[550px]">
@@ -25,13 +25,13 @@ export default function Footer() {
         </div>
         <div className="max-w-[263px] w-full flex self-end flex-row justify-between max-[1400px]:pl-8 max-[700px]:mt-8 max-[700px]:pl-0 max-[1050px]:mx-auto">
           <a href="https://www.facebook.com/" target="_blank" rel='noopener'>
-            <Image src={Facebook} className='cursor-pointer transition-transform transform hover:scale-110' alt="Facebook"/>
+            <Image loading="lazy" src={Facebook} className='cursor-pointer transition-transform transform hover:scale-110' alt="Facebook"/>
           </a>
           <a href="https://www.instagram.com/uptalentrh/" target="_blank" rel='noopener'>
-            <Image src={Instagram} className='cursor-pointer transition-transform transform hover:scale-110' alt="Instagram"/>
+            <Image loading="lazy" src={Instagram} className='cursor-pointer transition-transform transform hover:scale-110' alt="Instagram"/>
           </a>
           <a href="https://www.linkedin.com/company/uptalentrh/" rel='noopener' target="_blank">
-            <Image src={Linkdin} className='cursor-pointer transition-transform transform hover:scale-110' alt="Linkedin"/>
+            <Image loading="lazy" src={Linkdin} className='cursor-pointer transition-transform transform hover:scale-110' alt="Linkedin"/>
           </a>
         </div>
       </div>

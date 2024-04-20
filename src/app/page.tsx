@@ -3,6 +3,7 @@ import Home from "./home";
 import Differential from "./differential";
 import Footer from "@/components/footer";
 import Customers from "./customers";
+import Team from "./team";
 
 export default function page() {
   return (
@@ -11,6 +12,7 @@ export default function page() {
       <Home />
       <Differential />
       <Customers />
+      <Team />
       <Footer />
     </main>
   );
