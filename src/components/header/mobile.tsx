@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
-import Navigation from './navigation';
+import Navigation from '../navigation';
 
-import Logo from '../../public/imagens/logo-header.png';
+import Logo from '../../../public/imagens/logo-header.png';
 
 const Mobile = () => {
   const [isOpen, setIsOpen] = useState(false);

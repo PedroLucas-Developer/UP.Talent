@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import Navigation from "./navigation";
+import Navigation from "../navigation";
 
-import Logo from '../../public/imagens/logo-header.png';
-import Vector from '../../public/imagens/vector-header.png';
+import Logo from '../../../public/imagens/logo-header.png';
+import Vector from '../../../public/imagens/vector-header.png';
 
 export default function Desktop() {
   return (

@@ -1,4 +1,4 @@
-import Header from "@/components/header";
+import Header from "@/components/header/header";
 import Home from "./home";
 import Differential from "./differential";
 import Footer from "@/components/footer";

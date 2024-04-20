@@ -16,7 +16,7 @@ export default function Navigation({UlStyles, Texto}: NavigationProps ) {
         <a href="#customers">Nossos Clientes</a>
       </li>
       <li className={Texto}>
-        <a href="#equipe">A Equipe</a>
+        <a href="#Team">A Equipe</a>
       </li>
       <li className={Texto}>
         <a href="#contratacao">Modelo de Contratação</a>

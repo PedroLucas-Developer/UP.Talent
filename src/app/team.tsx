@@ -7,7 +7,7 @@ import Team2 from '../../public/imagens/perfil-2.png';
 
 export default function Team() {
   return (
-    <div id='customers' className="relative flex justify-center flex-col top-[-90px] overflow-hidden">
+    <div id='Team' className="relative flex justify-center flex-col top-[-90px] overflow-hidden">
       <div className='flex w-full relative mx-auto max-w-[1800px]'>
         <div className='w-10/12 mx-auto flex justify-center flex-col'>
           <div className='relative pt-[4rem]'>
