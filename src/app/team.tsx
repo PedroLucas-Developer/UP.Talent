@@ -10,7 +10,7 @@ export default function Team() {
     <div id='Team' className="relative flex justify-center flex-col top-[-90px] overflow-hidden">
       <div className='flex w-full relative mx-auto max-w-[1800px]'>
         <div className='w-10/12 mx-auto flex justify-center flex-col'>
-          <div className='relative pt-[4rem]'>
+          <div className='relative pt-[4rem] max-[400px]:pt-0'>
             <p className="text-[60px] font-bold leading-[50px] text-[#291234] text-center mb-[10px] max-[800px]:text-[45px] max-[400px]:text-[40px]">
               Conheça nossa equipe
             </p>
@@ -45,8 +45,8 @@ export default function Team() {
             </div>
           </div>
         </div>
-        <div className="absolute flex left-[-240px] h-[528px] top-0 max-[1500px]:left-[-350px] max-[1250px]:hidden">
-          <Image className="select-none" loading="lazy" src={Vector2} alt=""/>
+        <div className="absolute flex left-[-240px] max-[1250px]:top-32 max-[1250px]:left-[-70px] h-[528px] top-0 max-[1500px]:left-[-350px]">
+          <Image className="select-none max-[1250px]:h-[150px] max-[1250px]:w-[150px]" loading="lazy" src={Vector2} alt=""/>
         </div>
       </div>
     </div>

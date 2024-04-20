@@ -25,9 +25,9 @@ export default function Customers() {
             <div className='my-auto max-[830px]:my-20 max-[830px]:mx-auto'>
               <Image className='max-w-[387px] max-[600px]:max-w-full' style={{objectFit: "contain"}} loading="lazy" src={Trip} alt='Trip Maker' />
             </div>
-          </div>
-          <div className='my-auto w-1/3 max-[1250px]:mx-auto max-[1250px]:pb-10 max-[830px]:w-10/12'>
-            <Image className='ml-auto max-w-[238px] max-[830px]:mx-auto max-[400px]:max-w-full' style={{objectFit: "contain"}} loading="lazy" src={Point} alt='Point Media' />
+          </div> 
+          <div className='my-auto w-1/3 max-[1250px]:mx-auto max-[1250px]:pb-10 max-[1250px]:mt-8 max-[830px]:mt-0 max-[830px]:w-10/12'>
+            <Image className='ml-auto max-w-[238px] max-[1250px]:mx-auto max-[400px]:max-w-full' style={{objectFit: "contain"}} loading="lazy" src={Point} alt='Point Media' />
           </div>
         </div>
       </div>

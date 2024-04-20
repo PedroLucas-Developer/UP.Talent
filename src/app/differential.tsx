@@ -3,6 +3,7 @@ import Image from 'next/image';
 import vector5 from '../../public/imagens/vector-5.png';
 import vector6 from '../../public/imagens/vector-6.png';
 import vector7 from '../../public/imagens/vector-7.png';
+import GirlJump from '../../public/imagens/vector-girl.png'
 
 export default function Differential() {
   return (
@@ -13,8 +14,11 @@ export default function Differential() {
         </div>
       </div>
       <div className="w-11/12 mt-[200px] max-w-[1510px] mx-auto bg-[#57B89B] rounded-[64px] max-[1250px]:my-20">
+        <div className="absolute flex left-0 top-[10px] max-[1100px]:left-[-50px] max-[670px]:left-[-100px] max-[450px]:left-[-120px] max-[400px]:hidden min-[1250px]:hidden">
+          <Image className="select-none h-[300px] w-[300px]" loading="lazy" src={GirlJump} alt=""/>
+        </div>
         <div className='h-[1040px] w-10/12 mx-auto max-[1250px]:h-full pb-10'>
-          <div className='relative pt-[180px] max-[1250px]:pt-[50px]'>
+          <div className='relative pt-[180px] max-[1250px]:pt-[50px] mx-auto max-[550px]:w-[320px] max-[400px]:w-full'>
             <p className="text-[60px] font-bold leading-[50px] text-[#FFFFFF] text-center mb-[10px] max-[800px]:text-[42px]">
               Nosso diferencial
             </p>

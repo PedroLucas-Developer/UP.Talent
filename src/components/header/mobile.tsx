@@ -32,6 +32,7 @@ const Mobile = () => {
               <motion.div initial={{ opacity: 0, x: 100, }} animate={{ opacity: 1, x: 25, }} exit={{ opacity: 0, x: 100,}} transition={{ duration: 0.5 }} style={{ zIndex: 0 }} className="absolute z-50 flex justify-center top-[-2rem] right-0 w-11/12 max-w-[500px] h-screen bg-[#2a1233] max-sm:right-0">
                 <div className='w-9/12 py-4 bottom-[-6rem] relative h-4/5'>
                   <Navigation 
+                    Exit={toggleMenu}
                     UlStyles='flex flex-col' 
                     Texto="text-[#ffffff] text-right my-auto pt-5 leading-light text-2xl text-nowrap font-['Fira Sans'] hover:font-bold hover:text-[#61c3ac] max-sm:text-lg" />
                 </div>

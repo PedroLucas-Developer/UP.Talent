@@ -1,27 +1,30 @@
+import { MouseEventHandler } from "react";
+
 interface NavigationProps {
-  UlStyles: string
-  Texto: string
+  UlStyles: string;
+  Texto: string;
+  Exit?: MouseEventHandler<HTMLLIElement>;
 }
 
-export default function Navigation({UlStyles, Texto}: NavigationProps ) {
+export default function Navigation({UlStyles, Texto, Exit}: NavigationProps ) {
   return (
     <ul className={UlStyles}>
-      <li className={Texto}>
+      <li onClick={Exit} className={Texto}>
         <a href="#serviços">Serviços</a>
       </li>
-      <li className={Texto}>
+      <li onClick={Exit} className={Texto}>
         <a href="#differential">Nosso Diferencial</a>
       </li>
-      <li className={Texto}>
+      <li onClick={Exit} className={Texto}>
         <a href="#customers">Nossos Clientes</a>
       </li>
-      <li className={Texto}>
+      <li onClick={Exit} className={Texto}>
         <a href="#Team">A Equipe</a>
       </li>
-      <li className={Texto}>
+      <li onClick={Exit} className={Texto}>
         <a href="#contratacao">Modelo de Contratação</a>
       </li>
-      <li className={Texto}>
+      <li onClick={Exit} className={Texto}>
         <a href="#contato">Contato</a>
       </li>
     </ul>
