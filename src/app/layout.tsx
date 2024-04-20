@@ -13,6 +13,7 @@ export default function RootLayout({
         <meta name="author" content="Pedro Lucas Macedo de Moraes"/>
         <meta name="description" content="Site dA Up Talent"/>
         <meta name="keywords" content="sites, web, desenvolvimento"/>
+        <link rel='shortcut icon' href='/up.ico' />
       </head>
       <body>{children}</body>
     </html>
