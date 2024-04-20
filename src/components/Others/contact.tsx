@@ -92,7 +92,9 @@ export default function Contact() {
               <Image loading="lazy" src={vector10} alt='' />
             </div>
             <div className='w-[698px] absolute max-[1100px]:relative max-[1100px]:bottom-[-5rem] max-[1100px]:right-0 max-[1100px]:bottom-10  bottom-[4.5rem] right-[-10rem] max-[1450px]:right-[-15rem] max-[1100px]:w-full'>
-              <Image loading="lazy" src={Maps} alt='' />
+              <a href="#" target='_blank'>
+                <Image loading="lazy" src={Maps} alt='' />
+              </a>
             </div>
           </div>
         </div>
