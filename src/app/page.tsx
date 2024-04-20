@@ -4,6 +4,7 @@ import Differential from "./differential";
 import Footer from "@/components/footer";
 import Customers from "./customers";
 import Team from "./team";
+import Others from "./Others";
 
 export default function page() {
   return (
@@ -13,6 +14,7 @@ export default function page() {
       <Differential />
       <Customers />
       <Team />
+      <Others />
       <Footer />
     </main>
   );

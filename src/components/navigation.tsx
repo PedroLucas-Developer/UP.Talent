@@ -22,7 +22,7 @@ export default function Navigation({UlStyles, Texto, Exit}: NavigationProps ) {
         <a href="#Team">A Equipe</a>
       </li>
       <li onClick={Exit} className={Texto}>
-        <a href="#contratacao">Modelo de Contratação</a>
+        <a href="#Contract">Modelo de Contratação</a>
       </li>
       <li onClick={Exit} className={Texto}>
         <a href="#contato">Contato</a>
