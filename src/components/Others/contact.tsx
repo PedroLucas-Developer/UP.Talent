@@ -41,7 +41,7 @@ export default function Contact() {
             <Image loading="lazy" src={vector} alt='' />
           </div>
         </div>
-        <div className='mt-[130px] w-11/12 mx-auto flex flex-row max-[830px]:flex-col'>
+        <div className='mt-[130px] w-11/12 mx-auto flex flex-row max-[830px]:flex-col max-[830px]:mt-14'>
           <div id='Form' className='w-[734px] w-full flex flex-col w-1/2 max-[830px]:mx-auto max-[830px]:w-11/12'>
             <div className='max-w-[700px] w-full'>
               <p className="text-[30px] leading-[50px] text-[#FFFFFF] text-left mb-[10px] max-[950px]:text-[25px] max-[830px]:text-center">
@@ -49,20 +49,20 @@ export default function Contact() {
                 <b>pra gente e diz como podemos te ajudar hoje.</b>
               </p>
             </div>
-            <div className='mt-[95px]'>
+            <div className='mt-[95px] max-[1250px]:mt-10'>
               <input value={name} onChange={(e) => setName(e.target.value)} className='w-full h-[50px] bg-[#FFFFFF] rounded-[10px] p-4' id="name" name="Nome" type="text" placeholder='Nome:' autoComplete="name" />
             </div>
-            <div className='mt-[75px]'>
+            <div className='mt-[75px] max-[1250px]:mt-10'>
               <input value={email} onChange={(e) => setEmail(e.target.value)} className='w-full h-[50px] bg-[#FFFFFF] rounded-[10px] p-4' id="email" name="Email" type="email" placeholder='Email:' autoComplete="email" />
             </div>
-            <div className='mt-[75px]'>
+            <div className='mt-[75px] max-[1250px]:mt-10'>
               <input value={tel} onChange={(e) => setTel(e.target.value)} className='w-full h-[50px] bg-[#FFFFFF] rounded-[10px] p-4' id="tel" name="Tel" type="text" placeholder='Telefone:' autoComplete="tel" />
             </div>
-            <div className='mt-[75px]'>
+            <div className='mt-[75px] max-[1250px]:mt-10'>
               <textarea id="mensagem" name="Mensagem" placeholder="Mensagem:"  autoComplete="off" className="w-full h-[302px] bg-[#FFFFFF] rounded-[10px] p-4">
               </textarea>
             </div>
-            <div className='pt-6 mb-56 max-[830px]:mb-20' >
+            <div className='pt-6 mb-56 max-[1250px]:mt-10 max-[830px]:mb-20' >
               <button onClick={Send} className='w-[188px] h-[54px] bg-[#57B89B] text-[22px] font-bold leading-[25px] rounded-[28px] text-[#1B0E27] text-center'>
                 enviar
               </button>
