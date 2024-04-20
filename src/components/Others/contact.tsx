@@ -31,7 +31,7 @@ export default function Contact() {
   };
 
   return (
-    <div  className="relative flex justify-center flex-col">
+    <div  className="relative pb-20 flex justify-center flex-col">
       <div className='w-11/12 max-w-[1510px] mx-auto bg-[#291234] rounded-[64px] max-[1250px]:w-full max-[1250px]:mt-[-50px]'>
         <div id='Contact' className='relative mt-[145px]'>
           <p className="text-[60px] font-bold leading-[50px] text-[#DF887C] text-center mb-[10px] max-[800px]:text-[55px] max-[400px]:text-[45px]">
@@ -92,9 +92,9 @@ export default function Contact() {
               </div>
             </div>
             <div className='absolute right-[-3rem] bottom-[38rem] max-[1600px]:top-[-10rem] max-[1600px]:right-[-34rem] max-[1420px]:right-[-28rem] max-[1600px]:relative max-[950px]:hidden'>
-                <Image loading="lazy" src={vector10} alt='' />
-              </div>
-            <div className='absolute right-10 bottom-16 max-[1600px]:relative max-[1600px]:right-[-7rem] max-[1100px]:right-[-2rem] max-[950px]:bottom-0 max-[950px]:top-20'>
+              <Image loading="lazy" src={vector10} alt='' />
+            </div>
+            <div className='absolute right-10 bottom-16 max-[1600px]:relative max-[1600px]:right-[-7rem] max-[1100px]:right-[-2rem] max-[950px]:bottom-0 max-[950px]:top-20 max-[850px]:right-[-1rem]'>
               <Image loading="lazy" src={Maps} alt='' />
             </div>
           </div>
