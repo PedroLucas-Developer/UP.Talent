@@ -1,8 +1,6 @@
 'use client'
 import { useState } from 'react';
-
 import Image from 'next/image';
-
 
 import Maps from '../../../public/imagens/map.png';
 import vector from '../../../public/imagens/vector-4.png';

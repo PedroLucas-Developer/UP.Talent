@@ -1,8 +1,10 @@
 import Image from 'next/image';
 
+import Cards from './cards';
+
 import vector4 from '../../../public/imagens/vector-4.png';
 import vectorService from '../../../public/imagens/vector-service.png';
-import Cards from './cards';
+
 
 export default function Service() {
   return (
