@@ -31,7 +31,7 @@ export default function Differential() {
               Uma consultoria de RH focada em recrutamento e seleção de profissionais da área digital. Prezamos pela qualidade da seleção, prazo e assertividade. Com passagens desde 2008, em grandes agências e consultorias sempre focada no digital como por exemplo: Predicta, Isobar e DBG. Com foco em R&S, estruturação do departamento de R.H, entrevistas de desligamentos, mapeamento de áreas, pesquisa de clima e qualidade de vida para os colaboradores.
             </p>
           </div>
-          <div className='mt-[45px] relative z-50 h-[154px] bg-[#291234] max-w-[646px] mx-auto rounded-[100px] max-[600px]:h-[60px]'>
+          <div className='mt-[45px] relative z-30 h-[154px] bg-[#291234] max-w-[646px] mx-auto rounded-[100px] max-[600px]:h-[60px]'>
             <a href="#" className='cursor-poitner'>
               <button className='text-[60px] h-[154px] w-full font-bold leading-[50px] text-[#EABD11] max-[1250px]:text-[45px] max-[600px]:text-[30px] max-[600px]:h-[60px]'>
                 Conheça mais
@@ -40,8 +40,8 @@ export default function Differential() {
           </div>
         </div>
       </div>
-      <div className="flex w-full relative mx-auto max-w-[1800px]">
-        <div className="absolute flex right-[-740px] bottom-[120px] max-[1700px]:right-[-950px] max-[1250px]:hidden">
+      <div className="flex z-10 relative mx-auto max-w-[1800px]">
+        <div className="absolute z-[5] flex right-[-740px] bottom-[120px] max-[1700px]:right-[-950px] max-[1250px]:hidden">
           <Image className="select-none" loading="lazy" src={vector6} alt=""/>
         </div>
       </div>
