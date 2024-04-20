@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" style="font-weight: bold;">Up.Talent 💻</h1>
 
-## Getting Started
+<p align="center">
+ <a href="#tech">Tecnologias</a> • 
+ <a href="#started">Instalação</a> 
+</p>
 
-First, run the development server:
+<p align="center">
+  <b>
+    Descubra o nosso novo site, Up.Talent Com uma interface intuitiva e acessível, você pode explorar todas as facetas da Up.Talent de forma rápida e fácil. Personalize sua experiência, encontre soluções para suas necessidades de apresentação e mergulhe em uma experiência única, tudo em um só lugar. Visite-nos agora mesmo e descubra o que torna a Up.Talent tão especial!
+  </b>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+  <a href="https://up-talent.vercel.app/">📱 Veja o projeto</a>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2 id="layout">🎨 Layout</h2>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<div style="flex-wrap: wrap; flex-direction: row; display: flex;">
+  <table border="0" cellpadding="0" cellspacing="0" align="center" width="90%" style="width: 90%; flex-wrap: wrap; flex-direction: row; display: flex;">
+    <tr>
+     <td style="display: flex;">
+      <table border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr>
+          <td align="center">
+            <img src="/public/desktop.png" alt="desktop" width="250px">
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <p>
+              <b>Desktop</b>
+            </p>
+          </td>
+        </tr>
+      </table>
+     </td>
+     <td style="display: flex;">
+      <table border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr>
+          <td align="center">
+            <img src="./public/tablet.png" alt="Tablet" width="200px">
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <p>
+              <b>Tablet</b>
+            </p>
+          </td>
+        </tr>
+      </table>
+     </td>
+     <td style="display: flex;">
+      <table border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr>
+          <td align="center">
+            <img src="./public/cell.png" alt="Celular" width="100px">
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <p>
+              <b>Mobile</b>
+            </p>
+          </td>
+        </tr>
+      </table>
+     </td>
+    </tr>
+  </table>
+ </div>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h2 id="tech">💻 Tecnologias</h2>
 
-## Learn More
+- Next JS (v14.1.4)
+- Typescript (v5.0.0)
+- Tailwind CSS (v3.3.0)
+- Framer Motion (v11.0.25)
 
-To learn more about Next.js, take a look at the following resources:
+<h2 id="started">🚀 Instruções de Instalação</h2>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para configurar e executar este projeto localmente, siga as etapas abaixo:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone o repositório: `git clone https://github.com/PedroLucas-Developer/UP.Talent`
+2. Navegue até o diretório do projeto: `cd UP.Talent`
+3. Instale as dependências: `npm install`
+4. Inicie o servidor local: `npm run dev`
