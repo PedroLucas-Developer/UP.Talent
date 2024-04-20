@@ -2,7 +2,7 @@ import Header from "@/components/header";
 import Home from "./home";
 import Differential from "./differential";
 import Footer from "@/components/footer";
-import Service from "@/components/service/service";
+import Customers from "./customers";
 
 export default function page() {
   return (
@@ -10,6 +10,7 @@ export default function page() {
       <Header />
       <Home />
       <Differential />
+      <Customers />
       <Footer />
     </main>
   );
