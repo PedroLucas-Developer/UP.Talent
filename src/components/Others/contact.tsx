@@ -43,8 +43,7 @@ export default function Contact() {
           <div id='Form' className='w-[734px] flex flex-col w-1/2 max-[830px]:mx-auto max-[830px]:w-11/12'>
             <div className='max-w-[700px] w-full'>
               <p className="text-[30px] leading-[50px] text-[#FFFFFF] text-left mb-[10px] max-[950px]:text-[25px] max-[830px]:text-center">
-                Vamos bater um papo? <b>Manda uma mensagem</b> 
-                <b>pra gente e diz como podemos te ajudar hoje.</b>
+                Vamos bater um papo? <b>Manda uma mensagem</b> <b>pra gente e diz como podemos te ajudar hoje.</b>
               </p>
             </div>
             <div className='mt-[95px] max-[1250px]:mt-10'>
