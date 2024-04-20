@@ -9,8 +9,8 @@ import Recruting from "../../../public/imagens/recruting.png";
 export default function Cards() {
   return (
     <div className="flex flex-row relative">
-      <div className='w-11/12 flex flex-row mx-auto max-w-[1400px] mt-[140px] max-[1550px]:mt-[200px] max-[1550px]:flex-col'>
-        <div className='flex flex-row max-[1250px]:flex-col mx-auto  max-[1250px]:w-full'>
+      <div className='w-11/12 flex flex-row mx-auto max-w-[1400px] mt-[140px] max-[1250px]:mt-[50px] max-[1550px]:mt-[200px] max-[1550px]:flex-col'>
+        <div className='flex flex-row max-[1250px]:flex-col mx-auto max-[1250px]:w-full'>
           <div className='flex flex-row max-[550px]:flex-col max-[1250px]:w-full max-[1250px]:justify-between'>
             <div className="w-[201px] flex flex-col justify-center mx-auto">
               <div className="flex mx-auto h-[160px]">
