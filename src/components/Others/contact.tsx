@@ -41,8 +41,8 @@ export default function Contact() {
             <Image loading="lazy" src={vector} alt='' />
           </div>
         </div>
-        <div className='mt-[130px] w-11/12 mx-auto flex flex-row max-[830px]:flex-col max-[830px]:mt-14'>
-          <div id='Form' className='w-[734px] w-full flex flex-col w-1/2 max-[830px]:mx-auto max-[830px]:w-11/12'>
+        <div className='mt-[130px] w-11/12 mx-auto flex flex-row max-[830px]:flex-col max-[1250px]:mt-[50px]'>
+          <div id='Form' className='w-[734px] flex flex-col w-1/2 max-[830px]:mx-auto max-[830px]:w-11/12'>
             <div className='max-w-[700px] w-full'>
               <p className="text-[30px] leading-[50px] text-[#FFFFFF] text-left mb-[10px] max-[950px]:text-[25px] max-[830px]:text-center">
                 Vamos bater um papo? <b>Manda uma mensagem</b> 
@@ -58,18 +58,18 @@ export default function Contact() {
             <div className='mt-[75px] max-[1250px]:mt-10'>
               <input value={tel} onChange={(e) => setTel(e.target.value)} className='w-full h-[50px] bg-[#FFFFFF] rounded-[10px] p-4' id="tel" name="Tel" type="text" placeholder='Telefone:' autoComplete="tel" />
             </div>
-            <div className='mt-[75px] max-[1250px]:mt-10'>
+            <div className='mt-[75px] max-[830px]:mt-10'>
               <textarea id="mensagem" name="Mensagem" placeholder="Mensagem:"  autoComplete="off" className="w-full h-[302px] bg-[#FFFFFF] rounded-[10px] p-4">
               </textarea>
             </div>
-            <div className='pt-6 mb-56 max-[1250px]:mt-10 max-[830px]:mb-20' >
+            <div className='pt-6 mb-56 max-[830px]:mt-10 max-[830px]:mb-20' >
               <button onClick={Send} className='w-[188px] h-[54px] bg-[#57B89B] text-[22px] font-bold leading-[25px] rounded-[28px] text-[#1B0E27] text-center'>
                 enviar
               </button>
             </div>
           </div>
           <div className='flex max-w-[700px] flex-col w-1/2 max-[830px]:w-11/12'>
-            <div className='absolute w-[550px]  max-[500px]:w-full max-[950px]:w-11/12 right-[10rem] bottom-[41.5rem] max-[1600px]:ml-10 max-[1600px]:relative max-[1600px]:bottom-0 max-[1600px]:right-0 max-[1600px]:left-20 max-[1420px]:left-0'>
+            <div className='absolute w-[550px] max-[500px]:w-full max-[950px]:w-12/12 right-[10rem] bottom-[41.5rem] max-[1600px]:ml-10 max-[1600px]:relative max-[1600px]:bottom-0 max-[1600px]:right-0 max-[1600px]:left-20 max-[1420px]:left-0'>
               <div className='w-full'>
                 <p className='text-[20px] leading-[25px] text-[#FFFFFF] text-left'>
                   Email
