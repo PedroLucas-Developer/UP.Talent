@@ -15,7 +15,7 @@ export default function Desktop() {
         <div className="absolute w-full right-0">
           <Navigation 
             UlStyles="flex relative pt-12 px-5 w-full ml-auto max-w-[990px] flex-row z-20 justify-between"
-            Texto="text-[20px] font-bold leading-[24px] text-[#291234]" 
+            Texto="text-[20px] font-bold leading-[24px] text-[#291234] hover:text-[#ffffff]" 
           />
           <div className="absolute flex right-[-14rem] top-0 z-0">
             <Image className="select-none" priority={true} src={Vector} alt=""/>
