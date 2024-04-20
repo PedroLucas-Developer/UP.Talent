@@ -66,8 +66,8 @@ export default function Contact() {
               </button>
             </div>
           </div>
-          <div className='flex max-w-[700px] flex-col w-1/2 max-[830px]:w-11/12'>
-            <div className='absolute w-[550px] max-[500px]:w-full max-[950px]:w-12/12 right-[10rem] bottom-[41.5rem] max-[1600px]:ml-10 max-[1600px]:relative max-[1600px]:bottom-0 max-[1600px]:right-0 max-[1600px]:left-20 max-[1420px]:left-0'>
+          <div className='flex relative pl-10 max-w-[700px] flex-col w-1/2 max-[830px]:w-11/12'>
+            <div className='relative pt-[200px] w-[550px] pl-[100px] max-[1450px]:pl-0 max-[830px]:w-full max-[830px]:pt-0'>
               <div className='w-full'>
                 <p className='text-[20px] leading-[25px] text-[#FFFFFF] text-left'>
                   Email
@@ -89,10 +89,10 @@ export default function Contact() {
                 </p>
               </div>
             </div>
-            <div className='absolute right-[-3rem] bottom-[38rem] max-[1600px]:top-[-10rem] max-[1600px]:right-[-34rem] max-[1420px]:right-[-28rem] max-[1600px]:relative max-[950px]:hidden'>
+            <div className=' absolute bottom-[38rem] right-[-10rem] max-[1100px]:hidden'>
               <Image loading="lazy" src={vector10} alt='' />
             </div>
-            <div className='absolute right-10 bottom-16 max-[1600px]:relative max-[1600px]:right-[-7rem] max-[1100px]:right-[-2rem] max-[950px]:bottom-0 max-[950px]:top-20 max-[850px]:right-[-1rem]'>
+            <div className='w-[698px] absolute max-[1100px]:relative max-[1100px]:bottom-[-5rem] max-[1100px]:right-0 max-[1100px]:bottom-10  bottom-[4.5rem] right-[-10rem] max-[1450px]:right-[-15rem] max-[1100px]:w-full'>
               <Image loading="lazy" src={Maps} alt='' />
             </div>
           </div>
