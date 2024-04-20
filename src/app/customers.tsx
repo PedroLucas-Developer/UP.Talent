@@ -20,14 +20,14 @@ export default function Customers() {
         <div className='mx-auto w-11/12 my-[6.5rem] flex flex-row justify-between max-w-[1214px] max-[1250px]:flex-col'>
           <div className='flex w-2/3 flex-row justify-between max-[830px]:flex-col max-[1250px]:w-10/12 mx-auto' >
             <div className='my-auto max-[830px]:mx-auto max-[1250px]:pr-8 max-[830px]:pr-0'>
-              <Image loading="lazy" src={Yo} alt='Yo' />
+              <Image className='max-w-[186px]' loading="lazy" src={Yo} alt='Yo' />
             </div>
             <div className='my-auto max-[830px]:my-20 max-[830px]:mx-auto'>
-              <Image loading="lazy" src={Trip} alt='Trip Maker' />
+              <Image className='max-w-[387px] max-[600px]:max-w-full' style={{objectFit: "contain"}} loading="lazy" src={Trip} alt='Trip Maker' />
             </div>
           </div>
           <div className='my-auto w-1/3 max-[1250px]:mx-auto max-[1250px]:pb-10 max-[830px]:w-10/12'>
-            <Image className='ml-auto max-[830px]:mx-auto' loading="lazy" src={Point} alt='Point Media' />
+            <Image className='ml-auto max-w-[238px] max-[830px]:mx-auto max-[400px]:max-w-full' style={{objectFit: "contain"}} loading="lazy" src={Point} alt='Point Media' />
           </div>
         </div>
       </div>
