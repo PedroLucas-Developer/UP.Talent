@@ -29,7 +29,7 @@ export default function Contact() {
   };
 
   return (
-    <div  className="relative pb-20 flex justify-center flex-col">
+    <div  className="relative max-[830px]:pb-20 flex justify-center flex-col">
       <div className='w-11/12 max-w-[1510px] mx-auto bg-[#291234] rounded-[64px] max-[1250px]:w-full max-[1250px]:mt-[-50px]'>
         <div id='Contact' className='relative mt-[145px]'>
           <p className="text-[60px] font-bold leading-[50px] text-[#DF887C] text-center mb-[10px] max-[800px]:text-[55px] max-[400px]:text-[45px]">
