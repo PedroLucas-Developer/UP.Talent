@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 import Vector1 from '../../public/imagens/vector-9.png';
 import Contract from '@/components/Others/Contract';
+import Contact from '@/components/Others/contact';
 
 export default function Others() {
   return (
@@ -12,6 +13,7 @@ export default function Others() {
         </div>
       </div>
       <Contract />
+      <Contact />
     </div>
   );
 }

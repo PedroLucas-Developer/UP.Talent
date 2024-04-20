@@ -7,9 +7,9 @@ import Hub from '../../../public/imagens/hub.png';
 
 export default function Contract() {
   return (
-    <div id='Contract' className="relative flex justify-center flex-col">
-      <div className='pt-[320px] relative mx-auto max-[370px]:pt-[180px]'>
-        <div className='relative max-[1250px]:pt-14 max-[400px]:pt-0  max-[650px]:bg-[#df887c]'>
+    <div  className="relative flex justify-center flex-col">
+      <div className='pt-[300px] relative mx-auto max-[370px]:pt-[180px]'>
+        <div id='Contract' className='relative max-[1250px]:pt-14 max-[400px]:pt-0  max-[650px]:bg-[#df887c]'>
           <p className="text-[60px] font-bold leading-[50px] text-[#291234] text-center mb-[10px] max-[800px]:text-[55px] max-[400px]:text-[45px]">
             Modelos de contratação
           </p>
@@ -18,8 +18,8 @@ export default function Contract() {
           </div>
         </div>
       </div>
-      <div className='max-[1250px]:bg-[#df887c]'>
-        <div className='pt-[200px] relative mx-auto w-11/12 max-w-[1270px]'>
+      <div className='max-[1250px]:bg-[#df887c] pb-[150px]'>
+        <div className='pt-[220px] relative mx-auto w-11/12 max-w-[1270px]'>
           <div className='flex w-full flex-row justify-between max-[1250px]:flex-col'>
             <div className='flex flex-row justify-between w-[812px] max-[1250px]:w-full max-[800px]:flex-col'>
               <div className="w-[272px] mb-auto flex flex-col justify-center max-[1250px]:w-1/2 max-[800px]:w-full">
